@@ -1,8 +1,12 @@
+body{
+    margin: 0%;
+    background-color: rgb(67, 78, 79);
+}
 header{
     background-color: rgb(50, 50, 106);
     width: 100%;
     height: 100px;
-    margin:0%;  
+    margin-top:0px;  
 }
 header h1{
     font-family:inherit;
@@ -11,31 +15,45 @@ header h1{
     text-align: left;
 }
 #navegacion{
-    border: 1px solid rgb(45, 45, 81);
-    margin-right: 30px;
-    background-color: rgba(102, 90, 154, 0.326);
+ display: flex; 
+ background-color: rgb(32, 47, 56);
+ justify-content: space-between; 
+ height: 60px;
+ width: 100%;
+
 }
-#navegacion ul li:nth-child(1){
-    color: red;
+ .item{
+    width: 70px;
+    height: 60px;
+    background-color: aqua;
+    text-align: center;
+    font-family: inherit;
+    font-size: larger;
+}
+#navegacion .item:nth-child(2n +1){
+    background-color: darkblue;
+    align-items:center;
 }
 .articulo{
     background-color: grey;
     margin-left: 500px;
     margin-right: 500px;
+    margin-top: 30px;
+    border:3px solid rgb(51, 46, 46);
 }
 article h1{
  text-align: center;
  font-size: 35px;
  color: rgb(44, 64, 81);
 }
-.articulo footer{
+.articulo a{
     text-align: left;
     color: black;
 }
-.articulo footer:active{
+.articulo a:hover{
     color:blue
 }
-div{
+#formulario{
     border: 1px solid black;
     text-align: center;
     margin-top: 20px;
