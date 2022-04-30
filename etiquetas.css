@@ -84,7 +84,7 @@ input {
     color: rgb(0, 0, 0);
     font-size: 1.2em;
     font-style: italic;
-    background-color: rgb(46, 25, 25);
+    background-color: rgb(188, 179, 179);
 }
 input:hover{
     color: rgb(65, 9, 114);
