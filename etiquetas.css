@@ -1,13 +1,15 @@
 body{
     height: 100%;
     width: 100%;
-    background-color: rgb(67, 78, 79);
+    background-color: rgb(46, 95, 99);
 }
 header{
     background-color: rgb(50, 50, 106);
     width: 100%;
     height: 100px;
-    margin-top:0px;  
+    padding-top: 0%;
+    margin-top:0px; 
+    margin-right: 20px; 
 }
 header h1{
     font-family:inherit;
@@ -22,12 +24,18 @@ header h1{
  align-self: center;
  height: 60px;
  width: 100%;
+ margin-right: 20px;
 }
  .item{
-    width: 70px;
-    height: 60px;
+    width: 145px;
+    height: 50px;
+    margin-top: 5px;
+    border: 1px solid black ;
     font-family: inherit;
     font-size: larger;
+    text-align: center;
+    color: antiquewhite;
+    padding: 0%;
 }
 
  #seccion{
@@ -38,8 +46,8 @@ header h1{
     height: 900px;
     width: 100%;
     margin-top: 20px;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-left: 1px;
+    margin-right: 50pxpx;
 }
 .articulo{
     background-color: rgb(69, 61, 77);
@@ -55,7 +63,7 @@ header h1{
 }
 
 #seccion .articulo:nth-child(2){
-    width: 780px;
+    width: 1250px;
     height: 850px;
 }
 #seccion .articulo:nth-child(3){
@@ -64,19 +72,21 @@ header h1{
 }
 
 #formulario{
+    width: 100%;
+    height: 300px;
     border: 1px solid black;
     text-align: center;
     margin-top: 20px;
-    background-color: darkgrey;
+    background-color: rgb(56, 67, 94);
 }
 
 input {
     color: rgb(0, 0, 0);
     font-size: 1.2em;
     font-style: italic;
-    background-color: rgb(109, 109, 109);
+    background-color: rgb(46, 25, 25);
 }
 input:hover{
-    color: white;
+    color: rgb(65, 9, 114);
 }
 
